@@ -153,7 +153,7 @@ export default function SinglePost() {
   const [tags, setTags] = useState([]);
   const [editedImage, setEditedImage] = useState(null);
   const [currentUser, setCurrentUser] = useState(null);
-  const [errorDetails, setErrorDetails] = useState(null);
+  const [errorDetails, ] = useState(null);
   const [reviews, setReviews] = useState([]);
   const [userRating, setUserRating] = useState(0);
   const [userComment, setUserComment] = useState('');
